@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/productsListFragment2">
+    <fragment
+        android:id="@+id/productsListFragment2"
+        android:name="com.example.adichallengesapp.ui.ProductsListFragment"
+        android:label="ProductsListFragment" >
+        <action
+            android:id="@+id/action_productsListFragment2_to_productDetailsFragment2"
+            app:destination="@id/productDetailsFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailsFragment2"
+        android:name="com.example.adichallengesapp.ui.ProductDetailsFragment"
+        android:label="ProductDetailsFragment" >
+        <action
+            android:id="@+id/action_productDetailsFragment2_to_addNewReviewFragment"
+            app:destination="@id/addNewReviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewReviewFragment"
+        android:name="com.example.adichallengesapp.ui.AddNewReviewFragment"
+        android:label="fragment_add_new_review"
+        tools:layout="@layout/fragment_add_new_review" />
+</navigation>

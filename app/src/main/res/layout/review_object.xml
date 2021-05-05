@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-<LinearLayout
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,15 +9,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_margin="5dp">
+        android:layout_margin="@dimen/margin_5">
 
         <TextView
             android:id="@+id/tv_review"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/add_review"
-            android:textSize="20sp"
-            android:layout_margin="10dp"/>
+            android:textSize="@dimen/text_size_20"
+            android:layout_margin="@dimen/margin_10"/>
     </LinearLayout>
-</LinearLayout>
+</androidx.cardview.widget.CardView>
 </layout>

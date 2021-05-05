@@ -6,7 +6,7 @@
     app:startDestination="@id/productsListFragment2">
     <fragment
         android:id="@+id/productsListFragment2"
-        android:name="com.example.adichallengesapp.ui.ProductsListFragment"
+        android:name="com.example.adichallengesapp.ui.main.ProductsListFragment"
         android:label="ProductsListFragment" >
         <action
             android:id="@+id/action_productsListFragment2_to_productDetailsFragment2"
@@ -14,7 +14,7 @@
     </fragment>
     <fragment
         android:id="@+id/productDetailsFragment2"
-        android:name="com.example.adichallengesapp.ui.ProductDetailsFragment"
+        android:name="com.example.adichallengesapp.ui.main.ProductDetailsFragment"
         android:label="ProductDetailsFragment" >
         <action
             android:id="@+id/action_productDetailsFragment2_to_addNewReviewFragment"
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/addNewReviewFragment"
-        android:name="com.example.adichallengesapp.ui.AddNewReviewFragment"
+        android:name="com.example.adichallengesapp.ui.main.AddNewReviewFragment"
         android:label="fragment_add_new_review"
         tools:layout="@layout/fragment_add_new_review" />
 </navigation>
